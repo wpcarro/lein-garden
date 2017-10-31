@@ -116,7 +116,7 @@
 
 
 (def ^:private garden-profile
-  {:dependencies '[^:displace [garden "1.2.1"]
+  {:dependencies '[^:displace [com.urbint/garden "1.3.5"]
                    ^:displace [ns-tracker "0.2.2"]]})
 
 (defn garden
